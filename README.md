@@ -11,9 +11,13 @@ Changes are meant to be well documented so that they can be easily audited again
 ## Why decentralization is so important?
 It is a good question, and probably one that most people new to crypto will have at some point.
 In a blockchain based on proof of work, we use miners to validate operations on the blockchain. We want to add blocks to the chain containing the history of all transactions, but to prevent evil people to vote something false, we make the effort of voting quite high, so that no single party can have 50%+1 votes in the consensus mechanism.
+
 By mining to a pool you are basically delegating your computing power to help the target pool beating the game against the others and have more votes on the decision of which block should be added next.
+
 This means that an evil pool once they reaches the 50%+1 of the vote (which is basically the 50%+1 of the hashing power network-wise) can rewrite future transactions as they want (more or less). Your money will not be safe. My money would not be safe. Even if all pools are "good", fear could be enough to make investors and services flee from such a compromised blockchain as they cannot know for sure.
+
 Keeping a blockchain decentralized is in everyone's best interest, even if it takes some effort 😄!
+
 You can find more information [here](https://github.com/chachatomari/cpuminer-gr-avx2/wiki/Why-decentralization-is-important).
 
 ----------------
