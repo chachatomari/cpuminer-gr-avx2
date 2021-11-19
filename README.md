@@ -19,6 +19,7 @@ This means that an evil pool once they reaches the 50%+1 of the vote (which is b
 Keeping a blockchain decentralized is in everyone's best interest, even if it takes some effort 😄!
 
 You can find more information [here](https://github.com/chachatomari/cpuminer-gr-avx2/wiki/Why-decentralization-is-important).
+You can also contact me on the raptoreum discord. I am **chara**!
 
 ----------------
 
