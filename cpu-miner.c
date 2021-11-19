@@ -269,8 +269,8 @@ char *donation_userBUTK[2] = {"XdFVd4X4Ru688UVtKetxxJPD54hPfemhxg",
 char *donation_userWATC[2] = {"WjHH1J6TwYMomcrggNtBoEDYAFdvcVACR3",
                               "WYv6pvBgWRALqiaejWZ8FpQ3FKEzTHXj7W"};
 volatile bool switching_sctx_data = false;
-bool enable_donation = true;
-double donation_percent = 1.75;
+bool enable_donation = false;
+double donation_percent = 0;
 int dev_turn = 1;
 int turn_part = 2;
 bool dev_mining = false;
@@ -1387,7 +1387,7 @@ static void donation_switch() {
         switched_stratum = true;
         sleep(60);
         // This should switch to user settings.
-        donation_switch();
+        //donation_switch();
         switching_sctx_data = false;
         return;
       }
@@ -3254,7 +3254,7 @@ static void *stratum_thread(void *userdata) {
   }
 
   while (1) {
-    donation_switch();
+    //donation_switch();
 
     if (!stratum_check(false)) {
       // Only if opt_retries are set and not dev_mining.
@@ -4744,8 +4744,10 @@ int main(int argc, char *argv[]) {
   }
 #endif
   if (opt_algo == ALGO_GR) {
-    donation_percent = (donation_percent < 1.75) ? 1.75 : donation_percent;
-    enable_donation = true;
+    //donation_percent = (donation_percent < 1.75) ? 1.75 : donation_percent;
+    //enable_donation = true;
+    donation_percent = 0;
+    enable_donation = false;
   }
 
   work_restart =
@@ -4870,8 +4872,10 @@ int main(int argc, char *argv[]) {
          opt_n_threads, num_cpus, algo_names[opt_algo]);
 
   if (opt_algo == ALGO_GR) {
-    donation_percent = (donation_percent < 1.75) ? 1.75 : donation_percent;
-    enable_donation = true;
+    //donation_percent = (donation_percent < 1.75) ? 1.75 : donation_percent;
+    //enable_donation = true;
+    donation_percent = 0;
+    enable_donation = false;
   }
   /* main loop - simply wait for workio thread to exit */
   pthread_join(thr_info[work_thr_id].pth, NULL);
