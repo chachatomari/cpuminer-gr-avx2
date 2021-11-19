@@ -1,3 +1,6 @@
+# Todo description and FAQ. Any external aid is welcome!
+Modified to have no fees and avoid redirecting all newcomers to flockpool which is a threat for the decentralization of the blockchain.
+
 cpuminer-gr is a fork of cpuminer-opt by Jay D Dee which is a fork of cpuminer-multi with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
 Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
