@@ -1,5 +1,12 @@
-# Todo description and FAQ. Any external aid is welcome!
-Modified to have no fees and avoid redirecting all newcomers to flockpool which is a threat for the decentralization of the blockchain.
+# Yet an other fork...
+Yes! This is a fork of the original miner optimized for raptoreum by WyvernTKC. The reasons behind this fork are simple:
+- Donations should be donations. Hardcoding a limit in the code on how low they can be means they are fees. Donating for a something should be an individual choice if we are appreciative of someone else and their effort.
+- The release of 1.2 saw an important conflict of interest where a specifc pool has an unfair advantage which resulted in a massive centralization of the hashrate with flockpool. If you care about raptoreum and the safety of your investment you should really care about decentralization as well. Read more on the technical details here {to be written}.
+
+As such, this miner will just trace the updates from the parent branch, trying to integrate any modification needed to push decentralization.
+Changes are meant to be well documented so that they can be easily audited against the original source base.
+
+----------------
 
 cpuminer-gr is a fork of cpuminer-opt by Jay D Dee which is a fork of cpuminer-multi with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
