@@ -6,7 +6,7 @@ Yes! This is a fork of the original miner optimized for raptoreum by WyvernTKC. 
 As such, this miner will just trace the updates from the parent branch, trying to integrate any modification needed to push decentralization.
 Changes are meant to be well documented so that they can be easily audited against the original source base.
  
-**Notice:** at the moment there are no binaries made available yet as packages. They are coming soon.
+**Notice:** at the moment there are only binaries to be tested for linux. Binaries for windows will come soon.
 
 ## Why decentralization is so important?
 It is a good question, and probably one that most people new to crypto will have at some point.
