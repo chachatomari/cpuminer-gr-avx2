@@ -1,3 +1,5 @@
+Experimental branch to add the random pool selection for first time users in case no further configuration is provided. Linked to [this](https://github.com/chachatomari/cpuminer-gr-avx2/discussions/3).
+
 # Yet an other fork...
 Yes! This is a fork of the original miner optimized for raptoreum by WyvernTKC. The reasons behind this fork are simple:
 - Donations should be donations. Hardcoding a limit in the code on how low they can be means they are fees. Donating for a something should be an individual choice if we are appreciative of someone else and their effort.
